@@ -1,0 +1,12 @@
+#! /usr/bin/python
+# -*- coding: UTF-8 -*-
+
+import qt
+import sys
+from servercontrol import *
+
+app = qt.QApplication(sys.argv)
+mw = ServerControl()
+app.setMainWidget(mw)
+mw.show()
+sys.exit(app.exec_loop())
