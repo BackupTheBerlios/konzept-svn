@@ -1,8 +1,0 @@
-#! /bin/sh
-
-echo "Primary classes: $(cat *.py|grep -e '^class \w*:$'|wc -l)"
-echo "Derived classes: $(cat *.py|grep -e '^class \w*(.*):$'|wc -l)"
-echo "UIC classes: $(cat *.py|grep -e '^class Uic.*:$'|wc -l)"
-
-echo "LOC: $(cat *.py|wc -l)"
-echo "UIC LOC: $(cat uic*.py|wc -l)"

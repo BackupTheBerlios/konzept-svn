@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
-	<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg width="24" height="24">
-	<polyline points="3,3 21,3 21,21 3,21 3,3" fill="none" stroke="black" stroke-width="1.2"/>
-	<polyline points="3,6 21,6" fill="none" stroke="black" stroke-width="1.2"/>
-	<polyline points="3,13.5 21.1,13.5" fill="none" stroke="black" stroke-width="1.2"/>
-</svg>
