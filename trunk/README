@@ -2,49 +2,12 @@
 Konzept - A static structure diagram editor
 ===========================================
 
-Description:
-	Konzept is a small class diagram editor.
-	Major design goal was usability. The project was inspired by
-	the static diagram editor of the Toolkit of Conceptual Modelling.
-	Konzept is a pure Qt application written in Python.
+Konzept is a small class diagramm editor.
+Major design goal was usability. The project was inspired by
+the static diagram editor of the Toolkit of Conceptual Modelling.
 
-Licence:
-	BSD (see COPYING)
+Read the INSTALL file for installation instructions.
+It's simple and straightforward!
 
-Changelog:
-	26 Aug 2005 | initial release | 0.1
-	25 Oct 2005 | bugfix release  | 0.2
-		- Some transformation bugs were fixed.
-		- Build procedure changed to widen the range
-		  of supported PyQt versions.
-		- Added opening files by drag and drop.
-
-Prerequisites:
-	Python 2.3/2.4
-	PyQt >3.12      (http://sourceforge.net/projects/pykde)
-	numarry >1.0    (http://www.stsci.edu/resources/software_hardware/numarray)
-	ImageMagick
-	
-	The latest Linux/BSD distributions contain all those packages precompiled!
-	You can emerge them with your favourite package installer.
-	Under Mandriva Linux 2006 the package names are:
-		"python"
-		"PyQt"
-		"python-numarray"
-		"ImageMagick"
-	
-	The runtime environment can be checked by the "envtest" script
-	provided with the distribution tarball.
-
-Installation instructions:
-	$bunzip2 konzept-0.2.tar.bz2   # decompress
-	$tar xvf konzept-0.2.tar       # open archive
-	$cd konzept-0.2; make          # automated GUI generation
-	$./konzept                     # launch konzept
-
-Usage:
-	Graphical elements are activated in the toolbox
-	on the left side. When a certain connection type is
-	enabled dragging with the middle mouse button allows
-	to connect two nodes/shapes. Within text boxes the HTML tags
-	<b>, <u>, <i> can be used to decorate text.
+Project homagepage:  http://www.cyblogic.de/konzept/
+Developers homepage: http://developer.berlios.de/projects/konzept/

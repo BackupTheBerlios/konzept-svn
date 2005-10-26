@@ -1,0 +1,22 @@
+Prerequisites:
+	Python 2.3/2.4
+	PyQt >3.12      (http://sourceforge.net/projects/pykde)
+	numarry >1.0    (http://www.stsci.edu/resources/software_hardware/numarray)
+	ImageMagick
+	
+	The latest Linux/BSD distributions contain all those packages precompiled!
+	You can emerge them with your favourite package installer.
+	Under Mandriva Linux 2006 the package names are:
+		"python"
+		"PyQt"
+		"python-numarray"
+		"ImageMagick"
+	
+	The runtime environment can be checked by the "envtest" script
+	provided with the distribution tarball.
+
+Installation instructions:
+	$bunzip2 konzept-0.2.tar.bz2   # decompress
+	$tar xvf konzept-0.2.tar       # open archive
+	$cd konzept-0.2; make          # automated GUI generation
+	$./konzept                     # launch konzept
