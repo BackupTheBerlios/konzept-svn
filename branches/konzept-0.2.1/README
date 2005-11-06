@@ -1,0 +1,13 @@
+===========================================
+Konzept - A static structure diagram editor
+===========================================
+
+Konzept is a small class diagramm editor.
+Major design goal was usability. The project was inspired by
+the static diagram editor of the Toolkit of Conceptual Modelling.
+
+Read the INSTALL file for installation instructions.
+It's simple and straightforward!
+
+Project homagepage:  http://www.cyblogic.de/konzept/
+Developers homepage: http://developer.berlios.de/projects/konzept/

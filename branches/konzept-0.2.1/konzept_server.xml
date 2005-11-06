@@ -1,0 +1,16 @@
+<KonzeptServer>
+<Map>
+	<id>users</id>
+	<pair>
+		<Str>Joe</Str>
+		<Str>053a6266dcd023e9a9097a745f1ab1db</Str>
+	</pair>
+	<pair>
+		<Str>Alice</Str>
+		<Str>9e95fc382738fdaaa02a4617842efed7</Str>
+	</pair>
+</Map>
+<Map>
+	<id>documents</id>
+</Map>
+</KonzeptServer>
